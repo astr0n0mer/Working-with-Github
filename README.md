@@ -16,12 +16,13 @@ To see files that were created / updated / deleted but not committed yet \
 ->git status \
  \
 To make git track your files (or to stage your changes) \
-->git add file1.txt, file2.java \
-OR USE ->git add . \
+Eg: ->git add file1.txt, file2.java \
+OR: ->git add . \
  \
 To commit changes made in your repository (Commit title is mandatory and commit description is optional) \
 ->git commit -m "My_commit_title" -m "My_commit_description" \
  \
 To push your commits to your remote Git repository \
-->git push origin [branch_name_that_you_want_to_push_into] \
+->git push hyperlink branch_name \
 Eg: ->git push origin master \
+OR: ->git push
